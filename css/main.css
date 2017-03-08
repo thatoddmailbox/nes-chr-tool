@@ -1,0 +1,44 @@
+#controls, #palette {
+	border: solid 1px black;
+	width: 300px;
+	padding: 2px;
+	margin-bottom: 5px;
+}
+
+#editor {
+	background: linear-gradient(to bottom, #b3dced 0%,#29b8e5 50%,#bce0ee 100%);
+	border: solid 1px black;
+	margin-bottom: 5px
+}
+
+#editor tbody td {
+	border: solid 1px black;
+	padding: 0;
+	width: 8px;
+	height: 8px;
+}
+
+#tiles {
+	background: linear-gradient(to bottom, #b3dced 0%,#29b8e5 50%,#bce0ee 100%);
+	border: solid 1px black;
+}
+
+.tile {
+	background-position: center center;
+	background-repeat: no-repeat;
+	border: solid 1px black;
+	width: 8px;
+	height: 8px;
+}
+
+.tile.selected {
+	border: solid 1px yellow;
+}
+
+.state-0 {
+	background: transparent;
+}
+
+#offscreenRenderTarget, #offscreenFileSelector {
+	display: none;
+}

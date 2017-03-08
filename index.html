@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>NES CHR tool</title>
+
+		<link rel="stylesheet" href="css/main.css" />
+
+		<script src="js/jquery.min.js"></script>
+
+		<script src="js/main.js"></script>
+	</head>
+	<body>
+		<div id="controls">
+			<button id="openFile">Open .chr file</button>
+			<a id="hackyDownloadLink"><button id="downloadFile">Download .chr file</button></a>
+		</div>
+
+		<div id="palette">
+			<select id="paletteColor1" class="colorSelect"></select>
+			<select id="paletteColor2" class="colorSelect"></select>
+			<select id="paletteColor3" class="colorSelect"></select>
+		</div>
+
+		<table id="editor">
+			<tbody>
+
+			</tbody>
+		</table>
+
+		<table id="tiles">
+			<tbody>
+				
+			</tbody>
+		</table>
+
+		<canvas id="offscreenRenderTarget" width="8px" height="8px"></canvas>
+		<input type="file" id="offscreenFileSelector" />
+	</body>
+</html>
